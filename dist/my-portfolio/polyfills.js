@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Portfolio\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /Users/mac/Applications/Ayomide/portfolio_/src/polyfills.ts */"hN/g");
 
 
 /***/ }),

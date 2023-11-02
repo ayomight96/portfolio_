@@ -1,107 +1,184 @@
 export const projectsEn = [
     {
-        id:"teamTraveler",
-        name: "Team Traveler",
-        technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
+        id:"mirror",
+        name: "The Mirror Learners Portal",
+        technologies: 'Angular, PHP, Digital Ocean, Docker, MongoDB, Mezzio (Zend Expressive), Api, Micro Services',
         images: [
             {
-                title:'Trip',
-                src: "assets/images/voyages.webp",
+                title:'Sign In',
+                src: "assets/images/mirror/learner/mirror_signin.webp",
             },
             {
-                title:'Trip',
-                src:"assets/images/voyage.webp",
+                title:'Sign Up',
+                src: "assets/images/mirror/learner/mirror_signup.webp",
             },
             {
-                title:'Housing',
-                src: "assets/images/logements.webp",
+                title:'Dashboard',
+                src: "assets/images/mirror/learner/mirror_dashboard.webp",
+            },
+            {
+                title:'Paid Courses',
+                src:"assets/images/mirror/learner/mirror_paid_courses.webp",
+            },
+            {
+                title:'Learner Progress',
+                src: "assets/images/mirror/learner/mirror_progress.webp",
+            },
+            {
+                title:'Learner Notification',
+                src: "assets/images/mirror/learner/mirror_notification.webp",
+            },
+            {
+                title:'Learner Menu',
+                src: "assets/images/mirror/learner/mirror_menu_dropdown.webp",
+            },
+            {
+                title:'Learner Profile',
+                src: "assets/images/mirror/learner/mirror_learner_profile.webp",
+            },
+            {
+                title:'Course Purchase',
+                src: "assets/images/mirror/learner/mirror_learner_buy_course.webp",
+            },
+            {
+                title:'Cart',
+                src: "assets/images/mirror/learner/mirror_learner_cart.webp",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail:"The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> no more problems with choices or disagreements.",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/team_traveler',
+        url: "https://learn.themirrorllc.com",
+        detail:"<p>The learners platform owned by the Mirror Inc, designed to help all age groups on a pathway to wholeness by providing a system for learning where courses <br>taken are targeted at achieving just that. The system is also designed to ensure Learners can be mentored, and interact with a community that will ensure they not only achieve wholeness but stay there.</p>",
+        codeSourceUrl:'',
         detailIsDisplayed: false,
     },
     {
-        id:"mautic",
-        name: "Mautic Monitoring",
-        technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
+        id:"mirror",
+        name: "The Mirror Admin Portal",
+        technologies: 'Angular, PHP, Digital Ocean, Docker, MongoDB, Mezzio (Zend Expressive), Api, Micro Services',
         images: [
             {
-                title:'Marketing campaigns',
-                src:   "assets/images/compagnes.jpg",
+                title:'Dashboard',
+                src: "assets/images/mirror/admin/mirror_admin_dashboard.webp",
             },
             {
-                title:'Campaign detail',
-                src :"assets/images/compagne-detail.jpg",
+                title:'Sales',
+                src: "assets/images/mirror/admin/mirror_admin_sales.webp",
             },
             {
-                title:"Email performance",
-                src: "assets/images/email-detail.jpg",
+                title:'Upload Courses',
+                src: "assets/images/mirror/admin/mirror_admin_add_course.webp",
             },
             {
-                title:"Performance of an asset",
-                src: "assets/images/asset-detail.jpg" 
-            },
-            
+                title:'View Added Courses',
+                src:"assets/images/mirror/learner/mirror_admin_view_course.webp",
+            }
         ],
-        url:'#portfolio',
-        detail:"<p>Mautic is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/mautic_monitoring',
+        url: "https://admin.themirrorllc.com",
+        detail:"<p>The admin platform owned by the Mirror Inc, designed to help admin manage the learners and forum platforms.</p>",
+        codeSourceUrl:'',
         detailIsDisplayed: false,
     },
     {
-        id:"pokedex",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
+        id:"mirror",
+        name: "The Mirror Forum Portal",
+        technologies: 'Angular, PHP, Digital Ocean, Docker, MongoDB, Mezzio (Zend Expressive), Api, Micro Services',
         images: [
             {
-                title:'Pokedex',
-                src:   "assets/images/pokedex.png",
+                title:'Forum Landing Page',
+                src: "assets/images/mirror/forum/mirror_forum_landing.webp",
             },
             {
-                title:'Trainers',
-                src :"assets/images/trainers.png",
+                title:'Forum Landing Page 2',
+                src: "assets/images/mirror/forum/mirror_forum_landing_2.webp",
             },
             {
-                title:"Profile",
-                src: "assets/images/profile-trainer.png",
-            },            
+                title:'Forum Chat',
+                src: "assets/images/mirror/forum/mirror_forum_chat.webp",
+            }
         ],
-        url:'#portfolio',
-        detail:"<p>Display of the details of pokemon and their trainers.</p> <p>The two micro-service application contains: pokemon management and trainer management, which exposes a REST/JSON communication channel.<br>The 3rd WEB-UI micro-service connects to both micro-services.</p>",
-        codeSourceUrl:'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
+        url: "https://forum.themirrorllc.com",
+        detail:"<p>The forum platform owned by the Mirror Inc, designed to bring the learners, mentors and instructors together to produce a wholesome learning experience for learners admin manage the learners and forum platforms.</p>",
+        codeSourceUrl:'',
         detailIsDisplayed: false,
     },
     {
-        id:"portfolio",
-        name: "Portfolio",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
+        id:"partners",
+        name: "Heirs Insurance Patnership Portal",
+        technologies: 'PHP, Docker, MongoDB, Mezzio (Zend Expressive), Api, Micro Services',
         images: [
             {
-                title:'Portfolio',
-                src:   "assets/images/portfolio.png",
-            },
+                title:"Heirs Patnership Portal",
+                src: "assets/images/heirs/heirs_patnership_portal.webp",
+            }
         ],
-        url:'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-        detail:"<p> CV in the form of a responsive WEB site that I put in open-source on GitHub accompanied by a publication of a <a title='See the article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> on medium. </p>",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/portfolio',
+        url:'https://partners.heirsinsurance.com',
+        detail:"<p>Heirs Partners Portal is designed to give partners access to buy insurance as partners</p>",
+        codeSourceUrl:'',
         detailIsDisplayed: false,
     },
     {
-        id:"riddle",
-        name: "Transfer Riddle",
-        technologies: 'Java, J2EE(Web Services), JavaScript, Html5, CSS, BootStrap',
+        id:"life",
+        name: "Heirs Life Insurance Portal",
+        technologies: 'PHP, Docker, MongoDB, Mezzio (Zend Expressive), Api, Micro Services',
         images: [
             {
-                title:'Riddle',
-                src:   "assets/images/riddle.png",
-            },
+                title:'Heirs Life Portal',
+                src:   "assets/images/heirs/heirs_life_page.webp",
+            }
         ],
-        url:'https://transfer-riddle-solver.herokuapp.com/index.html',
-        detail:"Display of the steps for solving the decanting puzzle. Given two empty tanks of capacity X and Y, how to obtain precisely T liters in one of the two tanks (T being an integer). You can fill or empty a tank , and transfer the contents from one to the other, until the source is empty or the destination full.",
-        codeSourceUrl:'https://github.com/zinedineBenkhider/transfer_riddle_client',
+        url:'https://www.heirslifeassurance.com',
+        detail:"<p>Heirs Life Assurance Application is an application designed for Heirs Life Insurance Company, so as to position them to  become the, leading <br>Nigerian insurer leveraging  digital tools and technology to provide simple, quick, reliable, and accessible life insurance to individuals and businesses.</p>",
+        codeSourceUrl:'',
         detailIsDisplayed: false,
     },
+    {
+        id:"general",
+        name: "Heirs General Insurance Portal",
+        technologies: 'PHP, Docker, MongoDB, Mezzio (Zend Expressive), Api, Micro Services',
+        images: [
+            {
+                title:'Heirs General Portal',
+                src :"assets/images/heirs/heirs_general_page.webp",
+            }
+        ],
+        url:'https://www.heirsinsurance.com',
+        detail:"<p>Heirs Insurance General Insurance Application is an application designed for Heirs General Insurance Company, so as to position them to  become the, leading <br>Nigerian insurer leveraging  digital tools and technology to provide simple, quick, reliable, and accessible general insurance to individuals and businesses.</p>",
+        codeSourceUrl:'',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"estate",
+        name: "Real Estate Management Application",
+        technologies: 'Angular, Asp.Net Api, Firebase',
+        images: [
+            {
+                title:'Home Page',
+                src:   "assets/images/estate/real_estate_site.webp",
+            },
+            {
+                title:'Property Information',
+                src :"assets/images/estate/real_estate_site2.webp",
+            },
+            {
+                title:"Property Pictures",
+                src: "assets/images/estate/real_estate_site_3.webp",
+            },
+            {
+                title:"Property Upload",
+                src: "assets/images/estate/real_estate_site_4.webp",
+            },
+            {
+                title:"Sign Up Page",
+                src: "assets/images/estate/real_estate_site_5.webp",
+            },
+            {
+                title:"Log In Page",
+                src: "assets/images/estate/real_estate_site_6.webp",
+            },
+        ],
+        url:'https://house-let-ng.web.app/',
+        detail:"<p>A simple Real Estate Management Application</p>",
+        codeSourceUrl:'https://github.com/ayomight96/Real_Estate_Management_Frontend_Angular',
+        detailIsDisplayed: false,
+    }
 ];
 

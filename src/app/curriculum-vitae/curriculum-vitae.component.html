@@ -7,19 +7,14 @@
                 <h4><strong>{{'education.eductionTitle' | translate}}</strong></h4>
                 <ul class="timeline">
                     <li>
-                        <h5>{{'education.masterDegreeTwo' | translate}}</h5>
-                        <em class="font-italic">{{'education.masterDegreeTwoDesc' | translate}}<br> {{'education.university' | translate}}</em>
-                        <p class="year p-2 d-flex justify-content-center">2019 - 2020</p>
-                    </li>
-                    <li>
-                        <h5>{{'education.masterDegreeOne' | translate}}</h5>
-                        <em class="font-italic">{{'education.masterDegreeOneDesc' | translate}} <br> {{'education.university' | translate}}</em>
-                        <p class="year p-2 d-flex justify-content-center">2018 - 2019</p>
+                        <h5>{{'education.masterDegree' | translate}}</h5>
+                        <em class="font-italic">{{'education.masterDegreeDesc' | translate}} <br> {{'education.university' | translate}}</em>
+                        <p class="year p-2 d-flex justify-content-center">2019 - 2022</p>
                     </li>
                     <li>
                         <h5>{{'education.bachlorDegree' | translate}}</h5>
                         <em class="font-italic">{{'education.bachlorDegreeDesc' | translate}}<br> {{'education.university' | translate}}</em>
-                        <p class="year p-2 d-flex justify-content-center">2015 - 2018</p>
+                        <p class="year p-2 d-flex justify-content-center">2014 - 2018</p>
                     </li>
                 </ul>
             </div>
@@ -50,13 +45,8 @@
                     <div class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
                         <h4><strong>{{'education.languages' | translate}}</strong></h4>
                         <div class="noProgress langue">
-                            <span class=""><img src="assets/images/france-flag.png" width="20"
-                                    alt="drapeau de la france"><strong> {{'education.french' | translate}}</strong> <i class="val">
-                                        {{'education.fluent' | translate}}</i></span>
-                        </div>
-                        <div class="noProgress langue">
                             <span class=""><img src="assets/images/united-kingdom-flag.png" width="20"
-                                    alt="drapeau du royaume uni"><strong> {{'education.english' | translate}}</strong> <i class="val"> {{'education.goodLevel' | translate}}</i></span>
+                                    alt="drapeau du royaume uni"><strong> {{'education.english' | translate}}</strong> <i class="val"> {{'education.fluent' | translate}}</i></span>
                         </div>
                     </div>
                 </div>
@@ -65,23 +55,51 @@
                         <h4><strong>{{'education.centerOfInterest' | translate}}</strong></h4>
                         <div class="noProgress langue">
                             <span>
-                                <fa-icon [icon]="volleyBallIcon"></fa-icon><strong> {{'education.sport' | translate}}</strong> <i class="val"> 5 {{'education.years' | translate}}
-                                    Volley Ball</i>
+                                <fa-icon [icon]="paletteIcon"></fa-icon><strong> {{'education.sport' | translate}}</strong> <i class="val">
+                                    Basket Ball</i>
                             </span>
                         </div>
 
                         <div class="noProgress langue">
                             <span>
-                                <fa-icon [icon]="planeIcon"></fa-icon><strong> {{'education.trips' | translate}}</strong> <i class="val">
-                                    {{'education.tripsCountries' | translate}} </i>
+                                <fa-icon [icon]="planeIcon"></fa-icon><strong> {{'education.trips' | translate}}</strong>
                             </span>
                         </div>
-                        <div class="noProgress langue">
+                        <!-- <div class="noProgress langue">
                             <span>
                                 <fa-icon [icon]="gameIcon"></fa-icon><strong> {{'education.boardGames' | translate}} </strong> <i class="val">
                                     {{'education.boardGamesPlayed' | translate}} </i>
                             </span>
+                        </div> -->
+                        <div class="noProgress langue">
+                            <span>
+                                <fa-icon [icon]="writingIcon"></fa-icon><strong> Literary Writing </strong> <i class="val">
+                                    Short Stories, Poems </i>
+                            </span>
                         </div>
+                        <div class="noProgress langue">
+                            <span>
+                                <fa-icon [icon]="gameIcon"></fa-icon><strong> Computer Games </strong> <i class="val">
+                                    A whole lot! </i>
+                            </span>
+                        </div>
+                        <div class="noProgress langue">
+                            <span>
+                                <fa-icon [icon]="readingIcon"></fa-icon><strong> Reading </strong> <i class="val">
+                                    A whole lot! </i>
+                            </span>
+                        </div>
+                        <div class="noProgress langue">
+                            <span>
+                                <fa-icon [icon]="microphoneIcon"></fa-icon><strong> Spoken Word Poetry </strong>
+                            </span>
+                        </div>
+                        <!-- <div class="noProgress langue">
+                            <span>
+                                <fa-icon [icon]="musicIcon"></fa-icon><strong> Music </strong> <i class="val">
+                                    A whole lot! </i>
+                            </span>
+                        </div> -->
                     </div>
                 </div>
             </div>

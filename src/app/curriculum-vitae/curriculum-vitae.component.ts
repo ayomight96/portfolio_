@@ -17,6 +17,13 @@ export class CurriculumVitaeComponent implements OnInit {
   planeIcon: any ;
   gameIcon:any;
   volleyBallIcon:any;
+  paletteIcon:any;
+  microphoneIcon:any;
+  gamepadIcon:any;
+  readingIcon:any;
+  musicIcon:any;
+  writingIcon:any;
+  phonePhone:any;
 
   constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
     this._translationLoaderService.loadTranslations(english, french);
@@ -34,11 +41,18 @@ export class CurriculumVitaeComponent implements OnInit {
     this.planeIcon=awesom.faPlane;
     this.gameIcon=awesom.faGamepad;
     this.volleyBallIcon=awesom.faVolleyballBall;
+    this.paletteIcon=awesom.faPalette;
+    this.microphoneIcon=awesom.faMicrophone;
+    this.gamepadIcon=awesom.faGamepad;
+    this.readingIcon=awesom.faBookOpen;
+    this.musicIcon=awesom.faHeadphones;
+    this.writingIcon=awesom.faPen;
+    this.phonePhone=awesom.faPhone;
   }
-  
+
   detailOnClick(experience:any) {
     experience.detailIsDisplayed=!experience.detailIsDisplayed;
   }
- 
+
 
 }

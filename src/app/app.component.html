@@ -4,10 +4,12 @@
     <app-about></app-about>
     <app-skills></app-skills>
     <app-curriculum-vitae></app-curriculum-vitae>
-    <app-projects></app-projects>
-    <app-references></app-references>
-    <app-contact></app-contact>
+    <app-projects></app-projects><br>
+    <!-- <app-references></app-references> -->
+    <!-- <app-contact></app-contact> -->
     <footer class="footer">
-        <p> Copyright © 2020-<span>{{currentYear}}</span> By Zinedine Benkhider.</p>
+      <p> Copyright © 2023<span *ngIf="currentYear !== 2023">-<span>{{currentYear}}</span></span> By Ayomide Adekoya.</p>
+      <!-- <p> Copyright © 2023<span *ngIf="currentYear !== 2023">-<span>{{currentYear}}</span></span> By Ayomide Adekoya.</p> -->
+
     </footer>
 </div>

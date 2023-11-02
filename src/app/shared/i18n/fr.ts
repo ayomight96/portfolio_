@@ -41,8 +41,8 @@ export const locale = {
             'english': 'Anglais',
             'masterDegreeTwo': "Master 2 Informatique E-services",
             'masterDegreeTwoDesc': "Master en services numériques",
-            'masterDegreeOne': "Master 1 Informatique",
-            'masterDegreeOneDesc': "Master Général Informatique",
+            'masterDegree': "Master 1 Informatique",
+            'masterDegreeDesc': "Master Général Informatique",
             'bachlorDegree': "Licence 3 Informatique",
             'bachlorDegreeDesc': "Licence en informatiques",
             'university': 'Université de Lille, FR',
@@ -59,7 +59,7 @@ export const locale = {
             'skills': 'Compétences',
             'references': 'Recommandations',
             'contactMe': 'Me Contacter',
-            
+
         },
         'home': {
             'iAmDeveloper': 'Je suis développeur',
