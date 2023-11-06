@@ -38,9 +38,6 @@
           },
           "configurations": {
             "production": {
-              "environmentVariables": {
-                "NODE_OPTIONS": "--openssl-legacy-provider"
-              },
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
