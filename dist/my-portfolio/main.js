@@ -886,7 +886,21 @@ const referencesEn = [
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "experiencesEn", function() { return experiencesEn; });
 const experiencesEn = [
-    {
+  {
+    title: "Application Development and Analyst",
+    company: 'Alliance Consulting and Digital Solutions, Nigeria',
+    period: "2023 (13 weeks)",
+    technologies: 'PHP 8.1, C#, Asp.Net Core, Code Igniter, Angular, Bootstap, Mysql, Docker, Swagger Open Api',
+    missions: [
+        "Peer review detailed technical designs.",
+        "Support delivery of client projects.",
+        "Develop, build, configure and unit test solutions in accordance with outlined design documentation.",
+        "Perform work to agreed time, cost and quality constraints.",
+        "Build security into all applications, following enterprise security standards."
+    ],
+    detailIsDisplayed: false,
+},
+{
         title: "Freelance developer",
         company: 'The Voice Inc., US',
         period: "2023 (8 months)",
