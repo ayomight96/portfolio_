@@ -890,7 +890,7 @@ const experiencesEn = [
     title: "Application Development and Analyst",
     company: 'Alliance Consulting and Digital Solutions, Nigeria',
     period: "2023 (13 weeks)",
-    technologies: 'PHP 8.1, C#, Asp.Net Core, Code Igniter, Angular, Bootstap, Mysql, Docker, Swagger Open Api',
+    technologies: 'PHP 8.1, C-Sharp, Asp.Net Core, Code Igniter, Angular, Bootstap, Mysql, Docker, Swagger Open Api',
     missions: [
         "Peer review detailed technical designs.",
         "Support delivery of client projects.",
